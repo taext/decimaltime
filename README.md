@@ -1,5 +1,7 @@
 # Decimal Time
 
+[online decimaltime clock](https://v1d.dk/dt/)
+
 A Rust library that implements a custom date/time format called "Decimal Time" which represents time as a year, day of year, and decimal fraction of the day.
 
 ## Concept

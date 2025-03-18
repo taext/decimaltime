@@ -1,8 +1,8 @@
 [package]
 name = "decimal_time"
-version = "0.1.0"
+version = "0.1.5"
 edition = "2021"
-authors = ["You <you@example.com>"]
+authors = "Dave DK <gh@v1d.dk>"
 description = "A library implementing decimal time conversions in Rust."
 license = "MIT"
 

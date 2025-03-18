@@ -120,14 +120,14 @@ impl DecimalTime {
         // year
         output = output.replace("%Y", &self.year.to_string());
 
-        // day_of_year (3-digit zero-padded)
-        let day_str = format!("{:03}", self.day_of_year);
+        // day_of_year
+        let day_str = format!("{}", self.day_of_year);
         output = output.replace("%d", &day_str);
 
         // decimal fraction
         if output.contains("%f") {
             let frac = format!("{}", self.decimal_day);
-            output = output.replace("%f", &frac);
+            output = output.replace("%f", &frac.trim_start_matches('0'));
         }
 
         output

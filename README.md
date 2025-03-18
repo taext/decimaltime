@@ -1,4 +1,4 @@
-# Decimal Time
+# Decimal Time (v0.1.5)
 
 ([online demonstration](https://v1d.dk/dt/))
 

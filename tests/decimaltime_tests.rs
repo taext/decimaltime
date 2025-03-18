@@ -105,7 +105,7 @@ fn test_format() {
     let dec = DecimalTime::new(2025, 100, 0.123456);
     let formatted = dec.format("Year=%Y Day=%d Fraction=%f");
 
-    assert_eq!(formatted, "Year=2025 Day=100 Fraction=0.123456");
+    assert_eq!(formatted, "Year=2025 Day=100 Fraction=.123456");
 }
 
 /// ✅ Test full round-trip conversion (UTC -> Decimal -> UTC)

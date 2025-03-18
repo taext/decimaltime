@@ -15,5 +15,5 @@ fn main() {
     let dec_time = DecimalTime::from_naive_datetime(cet1_now.naive_local());
     
     // Format using DecimalTime's custom formatter
-    println!("Now in Decimal Time = {}", dec_time.format("%Y.%d%f"));
+    println!("Right now in Decimal Time (DT): {}", dec_time.format("%Y.%d%f"));
 }

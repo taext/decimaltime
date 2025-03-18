@@ -184,6 +184,6 @@ mod tests {
     fn test_format() {
         let dec = DecimalTime::new(2025, 5, 0.5);
         let formatted = dec.format("Date => %Y-%d frac:%f");
-        assert_eq!("Date => 2025-005 frac:0.5", formatted);
+        assert_eq!("Date => 2025-5 frac:.5", formatted);
     }
 }

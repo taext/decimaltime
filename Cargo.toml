@@ -1,0 +1,10 @@
+[package]
+name = "decimal_time"
+version = "0.1.0"
+edition = "2021"
+authors = ["You <you@example.com>"]
+description = "A library implementing decimal time conversions in Rust."
+license = "MIT"
+
+[dependencies]
+chrono = "0.4"

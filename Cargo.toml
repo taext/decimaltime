@@ -2,7 +2,7 @@
 name = "decimal_time"
 version = "0.1.5"
 edition = "2021"
-authors = "Dave DK <gh@v1d.dk>"
+authors = ["Dave DK < gh@v1d.dk>"]
 description = "A library implementing decimal time conversions in Rust."
 license = "MIT"
 
